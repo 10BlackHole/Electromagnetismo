@@ -1,0 +1,132 @@
+\chapter{Ondas periódicas}\label{cap:funcion-de-onda}
+\section{Ondas transversales periódicas}
+En particular, suponga que movemos verticalmente la cuerda con un \textit{movimiento armónico simple} (MAS) con amplitud $A$, frecuencia $f$, frecuencia angular $\omega=2\pi f$, y periodo $T = 1/f = 2\pi/\omega$. Las ondas periódicas con movimiento armónico simple las llamamos \textbf{ondas senoidales}. Resulta también que \textit{cualquier} onda periódica puede representarse como una combinación de ondas senoidales.\footnote{No confunda el movimiento de la onda transversal a lo largo de la cuerda con el de una partícula de la cuerda. La onda avanza con rapidez constante v a lo largo de la cuerda; mientras que el movimiento de la partícula es armónico simple y transversal (perpendicular) a la longitud de la cuerda.}
+
+\begin{quote}
+Cuando una onda senoidal pasa por un medio, todas las partículas del medio sufren movimiento armónico simple con la misma frecuencia.
+\end{quote}
+
+La longitud de un patrón de onda completo es la distancia entre una cresta y la siguiente, o de un valle al siguiente, o de cualquier punto al punto correspondiente en la siguiente repetición de la forma. Llamamos a esta distancia \textbf{longitud de onda}, denotada con $\lambda$. El patrón de onda viaja con rapidez constante $v$ y avanza una longitud de onda $\lambda$ en el lapso de un periodo $T$. Por lo tanto, la rapidez de la onda $v$ está dada por $v = \lambda /T$, dado que $f = 1/T$,
+
+\begin{equation}\label{15.1}\marginnote{Onda periódica}
+\boxed{v=\lambda f}
+\end{equation}
+
+\section{Descripción matemática de una onda}
+Necesitamos el concepto de \textit{función de onda}, una función que describe la posición de cualquier partícula en el medio en cualquier instante. Nos concentraremos en las ondas \textit{senoidales}, en las que cada partícula tiene un MAS alrededor de su posición de equilibrio.
+
+Como ejemplo específico, examinemos las ondas en una cuerda estirada. Si despreciamos el pandeo de la cuerda por la gravedad, su posición de equilibrio es en una línea recta, la cual tomamos como el eje $x$ de un sistema de coordenadas. Las ondas en una cuerda son transversales; durante el movimiento ondulatorio una partícula con posición de equilibrio $x$ se desplaza cierta distancia y en la dirección perpendicular al eje $x$. El valor de $y$ depende de cuál partícula estamos considerando (es decir, y depende de $x$) y también del instante $t$ en que la consideramos. Así, y es función tanto de $x$ como de $t$; $y = y(x, t)$. Llamamos a $y(x, t)$ la \textbf{función de onda} que describe la onda. Con esto podemos calcular la velocidad y la aceleración de cualquier partícula, la forma de la cuerda y todo lo que nos interese acerca del comportamiento de la cuerda en cualquier instante.
+
+\subsection{Función de onda de una onda senoidal}
+Supongamos que una onda senoidal viaja de izquierda a derecha (dirección de $x$ creciente) por la cuerda. Cada partícula de la cuerda oscila en movimiento armónico simple con la misma amplitud y frecuencia; pero las oscilaciones de partículas en diferentes puntos de la cuerda \textit{no} están todas coordinadas. 
+
+Los movimientos cíclicos de diversos puntos de la cuerda están desfasados entre sí en diversas fracciones de un ciclo. Llamamos a éstas \textit{diferencias de fase}, y decimos que la \textit{fase} del movimiento es diferente para diferentes puntos. Por ejemplo, si un punto tiene su desplazamiento positivo máximo al mismo tiempo que otro tiene su desplazamiento negativo máximo, los dos están desfasados medio ciclo.
+
+Suponga que el desplazamiento de una partícula en el extremo izquierdo de la cuerda ($x = 0$), donde la onda se origina, está dado por
+
+\begin{equation}\label{15.2}
+y(x=0,t)=A\cos\omega t=A\cos 2\pi ft
+\end{equation}
+
+En $t = 0$, la partícula en $x =0$ tiene máximo desplazamiento positivo ($y = A$) y está instantáneamente en reposo (porque el valor de $y$ es un máximo).
+
+La perturbación ondulatoria viaja de $x = 0$ a algún punto $x$ a la derecha del origen en un tiempo dado por $x/v$, donde $v$ es la rapidez de la onda. Así, el movimiento del punto $x$ en el instante $t$ es el mismo que el movimiento del punto $x = 0$ en el instante anterior $t - x/v$. Por lo tanto, podemos obtener el desplazamiento del punto $x$ en el instante $t$ con sólo sustituir $t$ en (\ref{15.2}) por $(t - x/v)$. Al hacerlo, obtenemos la siguiente expresión para la función de onda:
+
+\begin{equation*}
+y(x,t)=A\cos \left[\omega\left(t-\frac{x}{v}\right)\right]
+\end{equation*}
+
+Dado que $\cos (-\theta) = \cos \theta$, podemos rescribir la función de onda así:
+
+\begin{equation}\label{15.3}\marginnote{Onda senoidal que avanza en la dirección $+x$}
+\boxed{y(x,t)=A\cos \left[\omega\left(\frac{x}{v}-t\right)\right]=A\cos 2\pi f\left(\frac{x}{v}-t\right)}
+\end{equation}
+
+Podemos rescribir la función de onda dada por (\ref{15.3}) de varias formas distintas pero útiles. Una es expresarla en términos del periodo $T = 1/f$ y la longitud de onda $\lambda = v/f$:
+
+\begin{equation}\label{15.4}\marginnote{Onda senoidal que se mueve en la dirección $+x$}
+\boxed{y(x,t)=A\cos 2\pi\left(\frac{x}{\lambda}-\frac{t}{T}\right)}
+\end{equation}
+
+Obtenemos otra forma útil de la función de onda, si definimos una cantidad $k$ llamada \textbf{número de onda}\footnote{Algunos físicos definen el número de onda como $1/\lambda$ en vez de $2\pi/\lambda$. Al leer otros textos, verifique cómo se definió este término.}
+
+\begin{equation}\label{15.4}\marginnote{Número de onda}
+k=\frac{2\pi}{\lambda}
+\end{equation}
+
+Sustituyendo $\lambda = 2\pi /k$ y $f = \omega /2\pi$ en la relación longitud de onda-frecuencia $v =\lambda f$ obtenemos
+
+\begin{equation}\label{15.6}\marginnote{Onda periódica}
+\omega = vk
+\end{equation}
+
+Reescribiendo (\ref{15.4})
+
+\begin{equation}\label{15.7}\marginnote{Onda senoidal que se mueve en la dirección $+x$}
+\boxed{y(x,t)=A\cos (kx-\omega t)}
+\end{equation}
+
+\subsection{Más acerca de la función de onda}
+Podemos modificar (\ref{15.3}) a (\ref{15.7}) para representar una onda que viaja en la dirección $x$ negativa. En este caso, el desplazamiento del punto $x$ en el instante $t$ es el mismo que el del punto $x=0$ en un instante posterior $(t + x/v)$. Sustituyendo en (\ref{15.2})
+
+\begin{equation}\label{15.8}\marginnote{Nnda senoidal que se mueve en la dirección $-x$}
+y(x,t)=A\cos 2\pi f\left(\frac{x}{v}+t\right)=A\cos 2\pi \left(\frac{x}{\lambda}+\frac{t}{T}\right)=A\cos (kx+\omega t)
+\end{equation}
+
+En la expresión $y(x, t) =A\cos (kx \pm vt)$ para una onda que viaja en la dirección $-x$ o bien $+x$, la cantidad $(kx \pm vt)$ se denomina \textbf{fase}, y desempeña el papel de cantidad angular en (\ref{15.7}) y (\ref{15.8}); su valor para cualesquiera valores de $x$ y $t$ determina qué parte del ciclo senoidal existe en un punto e instante dados.
+
+La rapidez de onda es la rapidez con que tenemos que movernos con la onda para mantenernos junto a un punto que tiene una fase dada, como una cresta específica de una onda en una cuerda. Para una onda que viaja en la dirección $+x$, eso implica $kx - vt =$ constante. Derivando con respecto a t, $$\frac{dx}{dt}=\frac{\omega}{k}$$
+
+\subsection{Velocidad y aceleración de partículas en una onda senoidal}
+De la función de onda podemos obtener una expresión para la velocidad transversal de cualquier \textit{partícula} en una onda transversal, que llamaremos $v_y$ para distinguirla de la rapidez de propagación de la onda, $v$. Si la función de onda es $$y(x,t)=A\cos (kx-\omega t)$$ entonces,
+
+\begin{equation}\label{15.9}
+v_y(x,t)=\frac{\partial y(x,t)}{\partial t}=\omega A\sin (kx-\omega t)
+\end{equation}
+ (\ref{15.9}) muestra que la velocidad transversal de una partícula varía con el tiempo.
+ 
+La \textit{aceleración} de cualquier partícula es la segunda derivada parcial de $y(x, t)$ con respecto a $t$:
+
+\begin{equation}\label{15.10}
+a_y(x,t)=\frac{\partial ^2y(x,t)}{\partial t^2}=-\omega ^2A\cos (kx-\omega t)=-\omega ^2y(x,t)
+\end{equation}
+
+También podemos calcular derivadas parciales de $y(x, t)$ con respecto a $x$, manteniendo $t$ constante. Esto equivale a estudiar la forma de la cuerda en un momento dado, como una fotografía instantánea. La primera derivada $\partial y(x,t)/\partial x$ es la \textit{pendiente} de la cuerda en cualquier punto. La segunda derivada parcial con respecto a $x$ es la \textit{curvatura} de la cuerda:
+
+\begin{equation}\label{15.11}
+\frac{\partial ^2y(x,t)}{\partial x^2}=-k^2A\cos (kx-\omega t)=-k^2y(x,t)
+\end{equation}
+
+Por (\ref{15.10}) y (\ref{15.11}), y la relación $\omega = vk$, vemos que
+
+\begin{equation*}
+\frac{\partial ^2(x,t)/\partial t^2}{\partial ^2y(x,t)/\partial x^2}=\frac{\omega^2}{k^2}=v^2
+\end{equation*}
+y
+\begin{equation}\label{15.12}\marginnote{Ecuación de onda}
+\boxed{\frac{\partial ^2y(x,t)}{\partial x^2}=\frac{1}{v^2}\frac{\partial^2y(x,t)}{\partial t^2}}
+\end{equation}
+
+Se pueden seguir los mismos pasos para demostrar que la función de onda para una onda senoidal que se propaga en la dirección $x$ negativa, también satisface (\ref{15.12}). Esta ecuación, llamada \textbf{ecuación de onda}, es una de las más importantes en física. Siempre que ocurre, sabemos que una perturbación puede propagarse como onda a lo largo del eje $x$ con rapidez $v$. La perturbación no tiene que ser una onda senoidal; \textit{cualquier} onda en una cuerda obedece la ecuación (\ref{15.12}), sea periódica o no.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

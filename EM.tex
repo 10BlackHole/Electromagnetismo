@@ -1,0 +1,47 @@
+\documentclass[letterpaper, onecolumn, 11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{marginnote}
+\usepackage{caption}
+\spanishdecimal{.}
+
+%\renewcommand*{\marginnotevadjust}{-0.1cm}
+%\renewcommand*{\marginfont}{\footnotesize}
+%\usepackage[right=4.5cm,left=2cm,top=3cm,bottom=3.0cm]{geometry}
+\usepackage[right=3.0cm,left=1.20cm,top=1.5cm,bottom=1.5cm]{geometry}
+
+\hypersetup{colorlinks=true, linkcolor=red}
+\begin{document}
+\sffamily
+\title{\Huge\textbf{{Electromagnetismo}}}
+\author{Diez B. Borja}
+\maketitle
+\tableofcontents
+\input{cap/potencial-electrico.tex}
+\input{cap/capacitancia-y-dielectricos.tex}
+\input{cap/corriente-resistencia-y-fuerza-electromotriz.tex}
+\input{cap/circuitos-de-corriente-directa.tex}
+\input{cap/fuentes-de-campo-magnetico.tex}
+\input{cap/induccion-electromagnetica.tex}
+\input{cap/inductancia.tex}
+%\input{cap/corriente-alterna.tex}
+\input{cap/ondas-electromagneticas.tex}
+
+\appendix
+\input{cap/descripcion-matematica-onda.tex}
+
+\newpage
+\begin{thebibliography}{}
+\bibitem{Libro1}YOUNG, HUGH D. y ROGER A. FREEDMAN. (2009). \textit{Física universitaria volumen 1. Decimosegunda edición}. PEARSON EDUCACIÓN.
+\bibitem{Libro2} YOUNG, HUGH D. y ROGER A. FREEDMAN. (2009). \textit{Física universitaria, con física moderna volumen 2.
+Decimosegunda edición}. PEARSON EDUCACIÓN.
+
+\end{thebibliography}
+
+\end{document}
+
+

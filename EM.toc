@@ -1,0 +1,93 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Potencial el\IeC {\'e}ctrico }{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Energ\IeC {\'\i }a potencial el\IeC {\'e}ctrica}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Energ\IeC {\'\i }a potencial el\IeC {\'e}ctrica de un campo uniforme}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Energ\IeC {\'\i }a potencial entre dos cargas puntuales}{5}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Energ\IeC {\'\i }a potencial el\IeC {\'e}ctrica con varias cargas putuales}{6}{subsection.1.1.3}
+\contentsline {subsubsection}{Interpretaci\IeC {\'o}n de la energ\IeC {\'\i }a potencial el\IeC {\'e}ctrica}{6}{section*.4}
+\contentsline {section}{\numberline {1.2}Potencial el\IeC {\'e}ctrico}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}C\IeC {\'a}lculo del potencial el\IeC {\'e}ctrico}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Obtenci\IeC {\'o}n del potencial el\IeC {\'e}ctrico a partir del campo el\IeC {\'e}ctrico}{8}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}C\IeC {\'a}lculo del potencial el\IeC {\'e}ctrico}{8}{section.1.3}
+\contentsline {section}{\numberline {1.4}Superficies equipotenciales}{8}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Superficies equipotenciales y l\IeC {\'\i }neas de campo}{8}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Equipotenciales y conductores}{9}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Gradiente de potencial}{9}{section.1.5}
+\contentsline {chapter}{\numberline {2}Capacitancia y diel\IeC {\'e}ctricos}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}Capacitores y capacitancia}{10}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}C\IeC {\'a}lculo de capacitancia: capacitores con vac\IeC {\'\i }o}{11}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Capacitores en serie y en paralelo}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Capacitores en serie}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Capacitores en paralelo}{12}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Almacenamiento de energ\IeC {\'\i }a en capacitores y energ\IeC {\'\i }a de campo el\IeC {\'e}ctrico}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Energ\IeC {\'\i }a del campo el\IeC {\'e}ctrico}{13}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Corriente resistencia y fuerza electromotriz}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Corriente el\IeC {\'e}ctrica}{14}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Direcci\IeC {\'o}n del flujo de corriente}{14}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Corriente, velocidad de deriva y densidad de corriente}{14}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Resistividad}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}Resistencia}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Fuerza electromotriz y circuitos}{17}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Fuerza electromotriz}{17}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Energ\IeC {\'\i }a y potencia en circuitos el\IeC {\'e}ctricos}{17}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Potencia de una resistencia pura}{17}{subsection.3.5.1}
+\contentsline {chapter}{\numberline {4}Circuitos de corriente directa}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Resistores en serie y en paralelo}{18}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Resistores en serie}{18}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Resistores en paralelo}{18}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Reglas de Kirchhoff}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}Circuitos $R-C$}{19}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Carga de un capacitor}{19}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Descarga de un capacitor}{20}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Fuentes de campo magn\IeC {\'e}tico}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Campo de una carga en movimiento}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}Campo magn\IeC {\'e}tico de un elemento de corriente}{22}{section.5.2}
+\contentsline {section}{\numberline {5.3}Campo magn\IeC {\'e}tico de un conductor que transporta corriente}{23}{section.5.3}
+\contentsline {section}{\numberline {5.4}Fuerza entre alambres paralelos}{24}{section.5.4}
+\contentsline {section}{\numberline {5.5}Campo magn\IeC {\'e}tico de una espira circular de corriente}{24}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Campo magn\IeC {\'e}tico sobre el eje de una bobina}{25}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Ley de Ampere}{25}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Campo de un soleoide}{25}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Campo de un solenoide toroidal(toroide)}{26}{subsection.5.6.2}
+\contentsline {chapter}{\numberline {6}Inducci\IeC {\'o}n electromagn\IeC {\'e}tica}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ley de Faraday}{27}{section.6.1}
+\contentsline {section}{\numberline {6.2}Fuerza electromotriz de movimiento}{27}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Fem de movimiento: Forma general}{28}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Campo el\IeC {\'e}ctricos inducidos}{28}{section.6.3}
+\contentsline {section}{\numberline {6.4}Corriente de desplazamiento y ecuaciones de Maxwell}{29}{section.6.4}
+\contentsline {subsubsection}{Generalizaci\IeC {\'o}n de la ley de Ampere}{29}{section*.22}
+\contentsline {subsection}{\numberline {6.4.1}Ecuaciones de Maxwell del electromagnetismo}{30}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Simetr\IeC {\'\i }a en las ecuaciones de Maxwell}{31}{subsection.6.4.2}
+\contentsline {chapter}{\numberline {7}Inductancia}{32}{chapter.7}
+\contentsline {section}{\numberline {7.1}Inductancia mutua}{32}{section.7.1}
+\contentsline {section}{\numberline {7.2}Autoinductancia a inductores}{33}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Los inductores como elementos de un circuito}{34}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}Energ\IeC {\'\i }a del campo magn\IeC {\'e}tico}{35}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Energ\IeC {\'\i }a almacenada en un inductor}{35}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Densidad de la energ\IeC {\'\i }a magn\IeC {\'e}tica}{36}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}El circuito R-L}{36}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Crecimiento de la corriente en un circuito R-L}{37}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Decaimiento de la corriente en un circuito R-L}{39}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}El circuito L-C}{39}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Oscilaciones el\IeC {\'e}ctricas en un circuito L-C}{40}{subsection.7.5.1}
+\contentsline {subsubsection}{Energ\IeC {\'\i }a en un circuito L-C}{41}{section*.31}
+\contentsline {section}{\numberline {7.6}El circuito L-R-C en serie}{41}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}An\IeC {\'a}lisis del circuito $L-R-C$}{41}{subsection.7.6.1}
+\contentsline {chapter}{\numberline {8}Ondas electromagn\IeC {\'e}ticas}{43}{chapter.8}
+\contentsline {section}{\numberline {8.1}Ecuaciones de Maxwell y ondas electromagn\IeC {\'e}ticas}{43}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Electricidad, magnetismo y luz}{43}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Generaci\IeC {\'o}n de la radiaci\IeC {\'o}n electromagn\IeC {\'e}tica}{44}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}El espectro electromagn\IeC {\'e}tico}{44}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Ondas electromagn\IeC {\'e}ticas planas y rapidez de la luz}{44}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Una onda electromagn\IeC {\'e}tica plana simple}{44}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Propiedades clave de las ondas electromagn\IeC {\'e}ticas}{47}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Ondas electromagn\IeC {\'e}ticas sinusoidales}{47}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Campos de una onda sinusoidal}{47}{subsection.8.3.1}
+\contentsline {section}{\numberline {8.4}Energ\IeC {\'\i }a y cantidad de movimiento de las ondas electromagn\IeC {\'e}ticas}{48}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Flujo de energ\IeC {\'\i }a electromagn\IeC {\'e}tica y el vector de Poynting}{49}{subsection.8.4.1}
+\contentsline {chapter}{\numberline {A}Ondas peri\IeC {\'o}dicas}{52}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Ondas transversales peri\IeC {\'o}dicas}{52}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Descripci\IeC {\'o}n matem\IeC {\'a}tica de una onda}{52}{section.Alph1.2}
+\contentsline {subsection}{\numberline {A.2.1}Funci\IeC {\'o}n de onda de una onda senoidal}{52}{subsection.Alph1.2.1}
+\contentsline {subsection}{\numberline {A.2.2}M\IeC {\'a}s acerca de la funci\IeC {\'o}n de onda}{53}{subsection.Alph1.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Velocidad y aceleraci\IeC {\'o}n de part\IeC {\'\i }culas en una onda senoidal}{54}{subsection.Alph1.2.3}

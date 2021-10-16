@@ -1,0 +1,196 @@
+\chapter{Inducción electromagnética}
+La fuente de fem no es una batería, sino una estación generadora de electricidad.
+La inducción electromagnética nos dice que un campo magnético que varía en el tiempo actúa como fuente de campo eléctrico.
+También, un campo eléctrico que varía con el tiempo actúa como fuente de un campo magnético
+
+\section{Ley de Faraday}
+El flujo magnético total $\Phi_B$ a través de un área finita es la integral de esta expresión sobre el área:
+\begin{equation}\label{29.1}
+\Phi_B=\int\vec{B}\cdot d\vec{A}=\int B\, dA\cos\phi
+\end{equation}
+En el caso de que $\vec{B}$ sea uniforme sobre un área plana $\vec{A}$, entonces
+\begin{equation}\label{29.2}
+\Phi_B=\vec{B}\cdot \vec{A}=BA\cos\phi
+\end{equation}
+La \textbf{Ley de Faraday de la inducción} establece lo siguiente:
+\textit{La fem inducida en una espira cerrada es igual al negativo de la tasa de cambio del flujo magnético a través de la espira con respecto al tiempo}.
+ 
+En símbolos
+\begin{equation}\marginnote{Ley de Faraday}\label{29.3.faraday}
+\boxed{\varepsilon=-\frac{d\Phi_B}{dt}}
+\end{equation}
+\textbf{Obervación}: Las fem inducidas son ocasionadas por \textbf{cambios de flujo}.
+
+Si se tiene una bobina con $N$ espiras idénticas y si el flujo varía a la misma tasa a través de cada espira, la fem total en la bobina es
+\begin{equation}\label{29.4.Nfaraday}
+\boxed{\varepsilon=-N\frac{d\Phi_B}{dt}}
+\end{equation}
+La \textbf{Ley de Lenz} establece que, \textit{la dirección de cualquier efecto de la inducción magnética es la que se opone a la causa del efecto.}
+\section{Fuerza electromotriz de movimiento}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{fig/varilla}
+\end{figure}
+Una partícula cargada $q$ (	que suponemos positiva) en la varilla experimenta una fuerza magnética $\vec{F}=q\vec{v}\times\vec{B}$ con magnitud $F=|q|vB$. Esta fuerza magnética hace que las cargas libres en la varilla se muevan, lo que crea un exceso de carga positiva en el extremo superior $a$ y de carga negativa en el extremo inferior $b$.
+Esto, a la vez, crea un campo eléctrico $\vec{E}$ en el interior de la varilla, en el sentido que va de $a$ hacia $b$ (opuesto al campo magnético). Llega un momento en el que $\vec{E}$ es lo suficientemente grande como para que la fuerza eléctrica ($qE$) cancele exáctamente a la magnética. De esta manera, $qE=qvB$, y las cargas están en equilibrio. Luego, se tiene que
+\begin{equation}\label{29.5}
+V_{ab}=V_a-V_b=EL=qBL
+\end{equation}
+con el punto $a$ a un potencial mayor que $b$.
+\textbf{Continua...}
+\subsection{Fem de movimiento: Forma general}
+Podemos generalizar el concepto de fem de movimiento para un conductor de cualquier forma que se mueva en un campo magnético, uniforme o no (suponiendo que el campo magnético en cada punto no varía con el tiempo). Para cualquier fem cerrada, la fem total es
+\begin{equation}\label{29.7}
+\varepsilon=\oint (\vec{v}\times\vec{B})\cdot d\vec{l}
+\end{equation}
+Cuando se tienen conductores fijos en campos magnéticos cambiantes, no es posible utilizar (\ref{29.7}). En tal caso utilizar la ley de Faraday (\ref{29.3.faraday}).
+
+
+\section{Campo eléctricos inducidos}
+Una fem inducida también se presenta cuando hay un flujo cambiante a través de un conductor fijo.
+
+\begin{figure}[h]\label{fig:galvanometro}
+\centering
+\includegraphics[scale=0.5]{fig/galvanometro}
+\caption{El devanado de un solenoide largo lleva una corriente que se incrementa a una tasa $dI>dt$. El flujo magnético en el solenoide aumenta a una tasa $d\Phi_B/dt$, y este flujo cambiante pasa a través de una espira de alambre. En la espira se induce una fem $\varepsilon= -d\Phi_B/dt$, la cual induce una corriente $I'$ que se mide con el galvanómetro G}
+\end{figure}
+
+Consideremos la situacion que se ilustra en la figura \ref{fig:galvanometro}. Un solenoide largo y delgado, con área de sección transversal $A$ y $n$ espiras por unidad de
+longitud, está rodeado en su centro por una espira conductora circular. El galvanómetro G mide la corriente en la espira. Una corriente $I$ en el devanado del solenoide establece un campo magnético $\vec{B}$ a lo largo de su eje, como se indica, con magnitud $B=\mu_0nI$, donde $n$ es el número de espiras por unidad de longitud. El flujo magnético a traves de la espira es $$\Phi_B=BA=\mu_0nIA$$ Cuando la corriente $I$ cambia con el tiempo se tiene, según la ley de Faraday
+
+\begin{equation}\label{29.8}
+\varepsilon=-\frac{d\Phi_B}{dt}=-\mu_0nA\frac{dI}{dt}
+\end{equation}
+
+Si la resistencia total de la espira es $R$, la corriente inducida en la espira es $I'=\varepsilon/R$. ¿Qué fuerza hace que las cargas se muevan alrededor de la espira? No puede ser una fuerza magnética porque el conductor no se está moviendo en un campo magnético, y en realidad ni siquiera está en un campo magnético. Se debe a un \textbf{campo magnético inducido} en el conductor \textit{causado por el flujo magnético cambiante}. Este campo eléctrico en la espira \textbf{no es conservativo}, porque la integral de línea de $\vec{E}$ a lo largo de la trayectoria cerrada no es igual a cero. En vez de ello, esta integral de línea, que representa el trabajo realizado por el campo inducido $\vec{E}$ por unidad de carga, es igual a la fem inducida $\varepsilon$:
+
+\begin{equation}\label{29.9}
+\oint\vec{E}\cdot d\vec{l}=\varepsilon
+\end{equation}
+
+Que según la ley de Faraday
+
+\begin{equation}\label{29.10}\marginnote{Trayectoria de integración constante}
+\boxed{\oint\vec{E}\cdot d\vec{l}=-\frac{d\Phi_B}{dt}}
+\end{equation}
+
+La forma de la ley de Faraday (\ref{29.10}), sólo es válida si la trayectoria alrededor de la cual se integra es \textbf{constante}.
+
+Un campo de esta clase recibe el nombre de \textbf{campo no electrostático}. Este campo, a pesar de no ser conservativo, ejerce una fuerza $\vec{F}=q\vec{E}$ sobre una carga $q$. De esta manera, un campo magnético actúa como fuente de campo eléctrico de una clase que \textit{no podemos} producir con ninguna distribución de carga estática.
+
+\section{Corriente de desplazamiento y ecuaciones de Maxwell}
+De igual manera que un campo magnético que varía da lugar a un campo eléctrico inducido, un campo eléctrico variable, da lugar a un campo magnético.
+
+\subsubsection{Generalización de la ley de Ampere}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{fig/corriente-desplazamiento}
+\caption{ Capacitor de placas paralelas en proceso de carga. La corriente de conducción a través de la superficie plana es $i_C$, pero no hay corriente de conducción a través de la superficie que se abomba para pasar entre las placas. Las dos superficies tienen una frontera común, por lo que esta diferencia en Ienc lleva a una contradicción aparente al aplicar la ley de Ampère.}
+\label{fig:corriente-desplazamiento}
+\end{figure}
+
+Recordando la ley de Ampere, $$\oint\vec{B}\cdot d\vec{l}=\mu_0I_{enc}$$ Esta ley, expresada de esta manera está \textit{incompleta}. Consideremos la figura \ref{fig:corriente-desplazamiento}. Alambres conductores llevan corriente $i_C$\footnote{La notación $i_C$ indica corriente de conducción para diferenciarla de otra clase de corriente que vamos a encontrar y que se llama corriente de desplazamiento, $i_D$.} hacia una placa y fuera de la otra; la carga $Q$ se incrementa, y el campo eléctrico $\vec{E}$ entre las placas aumenta.
+
+Apliquemos la ley de Ampère a la trayectoria circular que se muestra.  La integral $\oint\vec{B}\cdot\, d\vec{l}$ alrededor de esta trayectoria es igual a $\mu_0I_{enc}$. Para el área circular plana limitada por el círculo, $II_{enc}$ es tan sólo la corriente $i_C$ en el conductor de la izquierda. Pero la superficie que se abomba hacia la derecha está delimitada por el mismo círculo y la corriente a través de esa superficie es igual a cero. Por lo tanto, $\oint\vec{B}\cdot d\vec{l}$ es igual a $\mu_0I_{enc}$, y ¡al mismo tiempo es igual a cero! Ésta es una contradicción evidente.
+
+Pero algo más ocurre en la superficie abombada. A medida que el capacitor se carga, el campo eléctrico $\vec{E}$ y el flujo eléctrico $\Phi_E$ a través de la superficie aumentan. La carga instantánea es $q=Cv$. Para un capacitor de placas paralelas, $C=\epsilon_0A/d$, donde $A$ es el área de las placas y $d$ es la separación. La diferencia de potencial $v$ entre las placas es $v=Ed$.
+
+Al sustituir estas expresiones para $C$ y $v$ en $q = Cv$, la carga en el capacitor, $q$, se expresa como	
+
+\begin{equation}\label{29.12}
+q=Cv=\frac{\epsilon A}{d}(Ed)=\epsilon EA=\epsilon\Phi_E
+\end{equation}
+
+
+Derivando (\ref{29.12}) con respecto al tiempo se obtiene
+
+\begin{equation}\label{29.13}
+\boxed{i_C=\frac{dq}{dt}=\epsilon\frac{d\Phi_E}{dt}}
+\end{equation}
+
+
+Ahora, con un pequeño esfuerzo de imaginación, inventamos una \textbf{corriente de desplazamiento} ficticia, $i_D$, en la región entre las placas, definida como
+
+\begin{equation}\label{29.14}\marginnote{Corriente de desplazamiento}
+\boxed{i_D=\epsilon\frac{d\Phi_E}{dt}}
+\end{equation}
+ Es decir, imaginamos que el flujo cambiante a través de la superficie curva en la figura \ref{fig:corriente-desplazamiento} es en cierto modo equivalente, en la ley de Ampère, a una corriente de conducción a través de esa superficie. Incluyéndola en la ley de Ampère
+ 
+\begin{equation}\label{29.15}\marginnote{Ley de Ampère generalizada}
+\boxed{\oint\vec{B}\cdot d\vec{l}=\mu_0(i_C+i_D)_{enc}}
+\end{equation}
+
+La ley de Ampère planteada en esta forma es obedecida sin importar cuál superficie se use en la figura \ref{fig:corriente-desplazamiento}. Para la superficie plana, $i_D$ es igual a cero; para la superficie curva, $i_C$ es cero; e $i_C$ para la superficie plana es igual a $i_D$ para la superficie curva.
+
+Hay una \textit{densidad de corriente de desplazamiento} correspondiente$j_D=i_D/A$; a partir de $\Phi_E=EA$ y dividiendo (\ref{29.14}) entre $A$, se encuentra
+
+\begin{equation}\label{29.16}
+j_D=\epsilon\frac{dE}{dt}
+\end{equation}
+
+\subsection{Ecuaciones de Maxwell del electromagnetismo}
+Por ahora, enunciaremos las ecuaciones de Maxwell en su forma más sencilla, para el caso en que hay cargas y corrientes en un espacio en que, por lo demás, está vacío.
+
+\begin{equation}\label{29.18.1}\marginnote{Ley de Gauss para $\vec{E}$}
+\boxed{\oint\vec{E}\cdot  d\vec{A}=\frac{Q_{enc}}{\epsilon_0}}
+\end{equation}
+
+\begin{equation}\label{29.19.1}\marginnote{Ley de Gauss para $\vec{B}$}
+\boxed{\oint\vec{B}\cdot  d\vec{A}=0}
+\end{equation}
+
+Este enunciado significa, entre otras cosas, que no hay monopolos magnéticos (cargas magnéticas individuales) que actúen como fuentes del campo magnético.
+
+\begin{equation}\label{29.20.1}\marginnote{Ley de Ampère}
+\boxed{\oint\vec{B}\cdot  d\vec{l}=\mu_0\left(i_C+\epsilon_0\frac{d\Phi_E}{dt}\right)}
+\end{equation}
+
+\begin{equation}\label{29.21.1}\marginnote{Ley de Faraday}
+\boxed{\oint\vec{E}\cdot  d\vec{l}=-\frac{d\Phi_B}{dt}}
+\end{equation}
+
+Si hay un flujo magnético cambiante, la integral de línea en (\ref{29.21.1}) es diferente de cero, lo que demuestra que el campo $\vec{E}$ producido por un flujo magnético cambiante no es conservativo. Recuerde que esta integral de línea debe llevarse a cabo sobre una trayectoria cerrada \textit{constante}.
+
+\subsection{Simetría en las ecuaciones de Maxwell}
+Las ecuaciones (\ref{29.20.1}) y (\ref{29.21.1}) se pueden volver a escribir en forma distinta pero equivalente incluyendo las definiciones de flujo eléctrico y flujo magnético, $\Phi_E=\int	\vec{E}\cdot d\vec{A}$ y $\Phi_B=\int\vec{B}\cdot d\vec{A}$, respectivamente. En el espacio vacío, donde no hay carga ni corriente de conducción, $i_C = 0$ y $Q_{enc} = 0$, y tenemos
+
+\begin{equation}\label{29.22}
+\oint\vec{B}\cdot d\vec{l}=\epsilon_0\mu_0\frac{d}{dt}\int	\vec{E}\cdot d\vec{A}
+\end{equation}
+
+\begin{equation}\label{29.23}
+\oint\vec{E}\cdot d\vec{l}=-\frac{d}{dt}\int	\vec{B}\cdot d\vec{A}
+\end{equation}
+
+La característica más notable de estas ecuaciones es que un campo de \textit{cualquier} tipo que varíe con respecto al tiempo induce un campo del otro tipo en las regiones vecinas del espacio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\end{document}
