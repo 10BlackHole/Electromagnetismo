@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 NOV 2021 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 MAY 2022 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,10 +304,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \hypersetup
-                {colorlinks=true, linkcolor=blue}
+l.25 \begin
+           {document}
 ? 
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 (./EM.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
@@ -490,7 +489,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 ...e campo magn\IeC {\'e}tico}{22}{chapter.5}
+l.42 ...e campo magn\IeC {\'e}tico}{20}{chapter.5}
                                                    [1
 
 ])
@@ -581,14 +580,12 @@ Package babel Info: Redefining spanish shorthand "?
 Package marginnote Info: Margin note 5.1 is on absolute page 5
 (marginnote)              on input line 8.
 Package marginnote Info: right page because not two side mode on input line 8.
-Package marginnote Info: xpos seems to be 202.16644pt,
+Package marginnote Info: xpos seems to be 165.91707pt,
 (marginnote)             \marginnoterightadjust ignored on input line 8.
-Package marginnote Info: Margin note 5.2 is on absolute page 5
-(marginnote)              on input line 16.
 Package marginnote Info: right page because not two side mode on input line 16.
 
-Package marginnote Info: xpos seems to be 183.3339pt,
-(marginnote)             \marginnoterightadjust ignored on input line 16.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 16.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand >>
@@ -652,7 +649,7 @@ Package marginnote Info: Margin note 6.1 is on absolute page 6
 (marginnote)              on input line 74.
 Package marginnote Info: right page because not two side mode on input line 74.
 
-Package marginnote Info: xpos seems to be 245.99304pt,
+Package marginnote Info: xpos seems to be 237.41779pt,
 (marginnote)             \marginnoterightadjust ignored on input line 74.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 79.
@@ -700,7 +697,7 @@ Package marginnote Info: Margin note 7.1 is on absolute page 7
 (marginnote)              on input line 94.
 Package marginnote Info: right page because not two side mode on input line 94.
 
-Package marginnote Info: xpos seems to be 165.91707pt,
+Package marginnote Info: xpos seems to be 194.70615pt,
 (marginnote)             \marginnoterightadjust ignored on input line 94.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 107.
@@ -755,19 +752,19 @@ Package marginnote Info: Margin note 8.1 is on absolute page 8
 (marginnote)              on input line 135.
 Package marginnote Info: right page because not two side mode on input line 135
 .
-Package marginnote Info: xpos seems to be 237.41779pt,
+Package marginnote Info: xpos seems to be 186.3939pt,
 (marginnote)             \marginnoterightadjust ignored on input line 135.
 Package marginnote Info: Margin note 8.2 is on absolute page 8
 (marginnote)              on input line 143.
 Package marginnote Info: right page because not two side mode on input line 143
 .
-Package marginnote Info: xpos seems to be 226.15796pt,
+Package marginnote Info: xpos seems to be 205.9276pt,
 (marginnote)             \marginnoterightadjust ignored on input line 143.
 Package marginnote Info: Margin note 8.3 is on absolute page 8
 (marginnote)              on input line 149.
 Package marginnote Info: right page because not two side mode on input line 149
 .
-Package marginnote Info: xpos seems to be 240.58725pt,
+Package marginnote Info: xpos seems to be 251.43289pt,
 (marginnote)             \marginnoterightadjust ignored on input line 149.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 156.
@@ -811,7 +808,7 @@ Package marginnote Info: Margin note 9.1 is on absolute page 9
 (marginnote)              on input line 166.
 Package marginnote Info: right page because not two side mode on input line 166
 .
-Package marginnote Info: xpos seems to be 194.70615pt,
+Package marginnote Info: xpos seems to be 257.81606pt,
 (marginnote)             \marginnoterightadjust ignored on input line 166.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 181.
@@ -902,20 +899,16 @@ Package marginnote Info: Margin note 10.1 is on absolute page 10
 (marginnote)              on input line 213.
 Package marginnote Info: right page because not two side mode on input line 213
 .
-Package marginnote Info: xpos seems to be 186.3939pt,
+Package marginnote Info: xpos seems to be 240.6125pt,
 (marginnote)             \marginnoterightadjust ignored on input line 213.
-Package marginnote Info: Margin note 10.2 is on absolute page 10
-(marginnote)              on input line 219.
 Package marginnote Info: right page because not two side mode on input line 219
 .
-Package marginnote Info: xpos seems to be 205.9276pt,
-(marginnote)             \marginnoterightadjust ignored on input line 219.
-Package marginnote Info: Margin note 10.3 is on absolute page 10
-(marginnote)              on input line 233.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 219.
 Package marginnote Info: right page because not two side mode on input line 233
 .
-Package marginnote Info: xpos seems to be 251.43289pt,
-(marginnote)             \marginnoterightadjust ignored on input line 233.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 233.
 ) (./cap/capacitancia-y-dielectricos.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -976,7 +969,7 @@ Package marginnote Info: Margin note 11.1 is on absolute page 11
 (marginnote)              on input line 19.
 Package marginnote Info: right page because not two side mode on input line 19.
 
-Package marginnote Info: xpos seems to be 257.81606pt,
+Package marginnote Info: xpos seems to be 211.62515pt,
 (marginnote)             \marginnoterightadjust ignored on input line 19.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 25.
@@ -1033,7 +1026,7 @@ Package marginnote Info: Margin note 12.1 is on absolute page 12
 (marginnote)              on input line 62.
 Package marginnote Info: right page because not two side mode on input line 62.
 
-Package marginnote Info: xpos seems to be 240.6125pt,
+Package marginnote Info: xpos seems to be 200.00743pt,
 (marginnote)             \marginnoterightadjust ignored on input line 62.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 67.
@@ -1098,7 +1091,7 @@ Package marginnote Info: Margin note 13.1 is on absolute page 13
 (marginnote)              on input line 87.
 Package marginnote Info: right page because not two side mode on input line 87.
 
-Package marginnote Info: xpos seems to be 211.62515pt,
+Package marginnote Info: xpos seems to be 263.02573pt,
 (marginnote)             \marginnoterightadjust ignored on input line 87.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 94.
@@ -1112,12 +1105,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 94.
-Package marginnote Info: Margin note 13.2 is on absolute page 13
-(marginnote)              on input line 96.
 Package marginnote Info: right page because not two side mode on input line 96.
 
-Package marginnote Info: xpos seems to be 216.42514pt,
-(marginnote)             \marginnoterightadjust ignored on input line 96.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 96.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 103.
 Package babel Info: Redefining spanish shorthand >>
@@ -1159,13 +1150,13 @@ Package marginnote Info: Margin note 14.1 is on absolute page 14
 (marginnote)              on input line 113.
 Package marginnote Info: right page because not two side mode on input line 113
 .
-Package marginnote Info: xpos seems to be 200.00743pt,
+Package marginnote Info: xpos seems to be 234.16032pt,
 (marginnote)             \marginnoterightadjust ignored on input line 113.
 Package marginnote Info: Margin note 14.2 is on absolute page 14
 (marginnote)              on input line 119.
 Package marginnote Info: right page because not two side mode on input line 119
 .
-Package marginnote Info: xpos seems to be 215.95894pt,
+Package marginnote Info: xpos seems to be 244.01207pt,
 (marginnote)             \marginnoterightadjust ignored on input line 119.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 122.
@@ -1183,7 +1174,7 @@ Package marginnote Info: Margin note 14.3 is on absolute page 14
 (marginnote)              on input line 132.
 Package marginnote Info: right page because not two side mode on input line 132
 .
-Package marginnote Info: xpos seems to be 252.43877pt,
+Package marginnote Info: xpos seems to be 256.25996pt,
 (marginnote)             \marginnoterightadjust ignored on input line 132.
 )
 (./cap/corriente-resistencia-y-fuerza-electromotriz.tex
@@ -1253,7 +1244,7 @@ Package marginnote Info: Margin note 15.1 is on absolute page 15
 (marginnote)              on input line 11.
 Package marginnote Info: right page because not two side mode on input line 11.
 
-Package marginnote Info: xpos seems to be 263.02573pt,
+Package marginnote Info: xpos seems to be 262.28392pt,
 (marginnote)             \marginnoterightadjust ignored on input line 11.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 18.
@@ -1306,19 +1297,19 @@ Package marginnote Info: Margin note 16.1 is on absolute page 16
 (marginnote)              on input line 48.
 Package marginnote Info: right page because not two side mode on input line 48.
 
-Package marginnote Info: xpos seems to be 234.16032pt,
+Package marginnote Info: xpos seems to be 264.16766pt,
 (marginnote)             \marginnoterightadjust ignored on input line 48.
 Package marginnote Info: Margin note 16.2 is on absolute page 16
 (marginnote)              on input line 52.
 Package marginnote Info: right page because not two side mode on input line 52.
 
-Package marginnote Info: xpos seems to be 244.01207pt,
+Package marginnote Info: xpos seems to be 256.20897pt,
 (marginnote)             \marginnoterightadjust ignored on input line 52.
 Package marginnote Info: Margin note 16.3 is on absolute page 16
 (marginnote)              on input line 58.
 Package marginnote Info: right page because not two side mode on input line 58.
 
-Package marginnote Info: xpos seems to be 256.25996pt,
+Package marginnote Info: xpos seems to be 224.50397pt,
 (marginnote)             \marginnoterightadjust ignored on input line 58.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 63.
@@ -1332,12 +1323,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 63.
-Package marginnote Info: Margin note 16.4 is on absolute page 16
-(marginnote)              on input line 67.
 Package marginnote Info: right page because not two side mode on input line 67.
 
-Package marginnote Info: xpos seems to be 262.4522pt,
-(marginnote)             \marginnoterightadjust ignored on input line 67.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 67.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand >>
@@ -1384,14 +1373,12 @@ Package marginnote Info: Margin note 17.1 is on absolute page 17
 (marginnote)              on input line 108.
 Package marginnote Info: right page because not two side mode on input line 108
 .
-Package marginnote Info: xpos seems to be 262.28392pt,
+Package marginnote Info: xpos seems to be 215.4491pt,
 (marginnote)             \marginnoterightadjust ignored on input line 108.
-Package marginnote Info: Margin note 17.2 is on absolute page 17
-(marginnote)              on input line 116.
 Package marginnote Info: right page because not two side mode on input line 116
 .
-Package marginnote Info: xpos seems to be 259.39386pt,
-(marginnote)             \marginnoterightadjust ignored on input line 116.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 116.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand >>
@@ -1445,7 +1432,7 @@ Package marginnote Info: Margin note 18.1 is on absolute page 18
 (marginnote)              on input line 131.
 Package marginnote Info: right page because not two side mode on input line 131
 .
-Package marginnote Info: xpos seems to be 264.16766pt,
+Package marginnote Info: xpos seems to be 214.9616pt,
 (marginnote)             \marginnoterightadjust ignored on input line 131.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 134.
@@ -1468,7 +1455,7 @@ Package marginnote Info: Margin note 18.2 is on absolute page 18
 (marginnote)              on input line 148.
 Package marginnote Info: right page because not two side mode on input line 148
 .
-Package marginnote Info: xpos seems to be 256.20897pt,
+Package marginnote Info: xpos seems to be 256.44534pt,
 (marginnote)             \marginnoterightadjust ignored on input line 148.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 151.
@@ -1486,7 +1473,7 @@ Package marginnote Info: Margin note 18.3 is on absolute page 18
 (marginnote)              on input line 155.
 Package marginnote Info: right page because not two side mode on input line 155
 .
-Package marginnote Info: xpos seems to be 224.50397pt,
+Package marginnote Info: xpos seems to be 254.87128pt,
 (marginnote)             \marginnoterightadjust ignored on input line 155.
 )
 (./cap/circuitos-de-corriente-directa.tex
@@ -1556,7 +1543,7 @@ Package marginnote Info: Margin note 19.1 is on absolute page 19
 (marginnote)              on input line 29.
 Package marginnote Info: right page because not two side mode on input line 29.
 
-Package marginnote Info: xpos seems to be 215.4491pt,
+Package marginnote Info: xpos seems to be 180.61412pt,
 (marginnote)             \marginnoterightadjust ignored on input line 29.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 36.
@@ -1597,12 +1584,10 @@ Package babel Info: Redefining spanish shorthand "?
 [18
 
 ]
-Package marginnote Info: Margin note 20.1 is on absolute page 20
-(marginnote)              on input line 52.
 Package marginnote Info: right page because not two side mode on input line 52.
 
-Package marginnote Info: xpos seems to be 214.9616pt,
-(marginnote)             \marginnoterightadjust ignored on input line 52.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 52.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 59.
 Package babel Info: Redefining spanish shorthand >>
@@ -1615,18 +1600,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 59.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 59.
-Package marginnote Info: Margin note 20.2 is on absolute page 20
-(marginnote)              on input line 65.
 Package marginnote Info: right page because not two side mode on input line 65.
 
-Package marginnote Info: xpos seems to be 256.44534pt,
-(marginnote)             \marginnoterightadjust ignored on input line 65.
-Package marginnote Info: Margin note 20.3 is on absolute page 20
-(marginnote)              on input line 71.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 65.
 Package marginnote Info: right page because not two side mode on input line 71.
 
-Package marginnote Info: xpos seems to be 254.87128pt,
-(marginnote)             \marginnoterightadjust ignored on input line 71.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 71.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand >>
@@ -1694,13 +1675,13 @@ Package marginnote Info: Margin note 21.1 is on absolute page 21
 (marginnote)              on input line 132.
 Package marginnote Info: right page because not two side mode on input line 132
 .
-Package marginnote Info: xpos seems to be 180.61412pt,
+Package marginnote Info: xpos seems to be 243.15303pt,
 (marginnote)             \marginnoterightadjust ignored on input line 132.
-Package marginnote Info: Margin note 21.2 is on absolute page 21
+Package marginnote Info: Margin note 21.2 is on absolute page 22
 (marginnote)              on input line 138.
 Package marginnote Info: right page because not two side mode on input line 138
 .
-Package marginnote Info: xpos seems to be 204.87831pt,
+Package marginnote Info: xpos seems to be 238.36684pt,
 (marginnote)             \marginnoterightadjust ignored on input line 138.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 141.
@@ -1723,18 +1704,14 @@ Package pdftex.def Info: fig/r-c-2.png  used on input line 145.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package marginnote Info: Margin note 21.3 is on absolute page 21
-(marginnote)              on input line 155.
 Package marginnote Info: right page because not two side mode on input line 155
 .
-Package marginnote Info: xpos seems to be 245.19405pt,
-(marginnote)             \marginnoterightadjust ignored on input line 155.
-Package marginnote Info: Margin note 21.4 is on absolute page 22
-(marginnote)              on input line 160.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 155.
 Package marginnote Info: right page because not two side mode on input line 160
 .
-Package marginnote Info: xpos seems to be 189.0153pt,
-(marginnote)             \marginnoterightadjust ignored on input line 160.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 160.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 164.
 Package babel Info: Redefining spanish shorthand >>
@@ -1814,7 +1791,7 @@ Package marginnote Info: Margin note 23.1 is on absolute page 23
 (marginnote)              on input line 10.
 Package marginnote Info: right page because not two side mode on input line 10.
 
-Package marginnote Info: xpos seems to be 243.15303pt,
+Package marginnote Info: xpos seems to be 251.40942pt,
 (marginnote)             \marginnoterightadjust ignored on input line 10.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 17.
@@ -1828,12 +1805,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
-Package marginnote Info: Margin note 23.2 is on absolute page 24
-(marginnote)              on input line 31.
 Package marginnote Info: right page because not two side mode on input line 31.
 
-Package marginnote Info: xpos seems to be 238.36684pt,
-(marginnote)             \marginnoterightadjust ignored on input line 31.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 31.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand >>
@@ -1882,7 +1857,7 @@ Package marginnote Info: Margin note 24.1 is on absolute page 24
 (marginnote)              on input line 45.
 Package marginnote Info: right page because not two side mode on input line 45.
 
-Package marginnote Info: xpos seems to be 253.27332pt,
+Package marginnote Info: xpos seems to be 234.38307pt,
 (marginnote)             \marginnoterightadjust ignored on input line 45.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 56.
@@ -1930,12 +1905,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 61.
 [23 <./fig/image1.png>]
-Package marginnote Info: Margin note 25.1 is on absolute page 25
-(marginnote)              on input line 64.
 Package marginnote Info: right page because not two side mode on input line 64.
 
-Package marginnote Info: xpos seems to be 251.40942pt,
-(marginnote)             \marginnoterightadjust ignored on input line 64.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 64.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 73.
 Package babel Info: Redefining spanish shorthand >>
@@ -2010,7 +1983,7 @@ Package marginnote Info: Margin note 26.1 is on absolute page 26
 (marginnote)              on input line 99.
 Package marginnote Info: right page because not two side mode on input line 99.
 
-Package marginnote Info: xpos seems to be 234.38307pt,
+Package marginnote Info: xpos seems to be 252.37195pt,
 (marginnote)             \marginnoterightadjust ignored on input line 99.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 105.
@@ -2134,7 +2107,7 @@ Package marginnote Info: Margin note 28.1 is on absolute page 28
 (marginnote)              on input line 19.
 Package marginnote Info: right page because not two side mode on input line 19.
 
-Package marginnote Info: xpos seems to be 252.37195pt,
+Package marginnote Info: xpos seems to be 235.63521pt,
 (marginnote)             \marginnoterightadjust ignored on input line 19.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 29.
@@ -2250,7 +2223,7 @@ Package marginnote Info: Margin note 30.1 is on absolute page 30
 (marginnote)              on input line 74.
 Package marginnote Info: right page because not two side mode on input line 74.
 
-Package marginnote Info: xpos seems to be 235.63521pt,
+Package marginnote Info: xpos seems to be 208.5033pt,
 (marginnote)             \marginnoterightadjust ignored on input line 74.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 81.
@@ -2295,18 +2268,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 93.
  [29 <./fig/corriente-desplazamiento.png>]
-Package marginnote Info: Margin note 31.1 is on absolute page 31
-(marginnote)              on input line 116.
 Package marginnote Info: right page because not two side mode on input line 116
 .
-Package marginnote Info: xpos seems to be 251.28398pt,
-(marginnote)             \marginnoterightadjust ignored on input line 116.
-Package marginnote Info: Margin note 31.2 is on absolute page 31
-(marginnote)              on input line 121.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 116.
 Package marginnote Info: right page because not two side mode on input line 121
 .
-Package marginnote Info: xpos seems to be 217.02596pt,
-(marginnote)             \marginnoterightadjust ignored on input line 121.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 121.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 132.
 Package babel Info: Redefining spanish shorthand >>
@@ -2319,18 +2288,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 132.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 132.
-Package marginnote Info: Margin note 31.3 is on absolute page 31
-(marginnote)              on input line 136.
 Package marginnote Info: right page because not two side mode on input line 136
 .
-Package marginnote Info: xpos seems to be 237.01598pt,
-(marginnote)             \marginnoterightadjust ignored on input line 136.
-Package marginnote Info: Margin note 31.4 is on absolute page 32
-(marginnote)              on input line 140.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 136.
 Package marginnote Info: right page because not two side mode on input line 140
 .
-Package marginnote Info: xpos seems to be 246.37747pt,
-(marginnote)             \marginnoterightadjust ignored on input line 140.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 140.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 141.
 Package babel Info: Redefining spanish shorthand >>
@@ -2360,13 +2325,13 @@ Package marginnote Info: Margin note 32.1 is on absolute page 32
 (marginnote)              on input line 146.
 Package marginnote Info: right page because not two side mode on input line 146
 .
-Package marginnote Info: xpos seems to be 208.5033pt,
+Package marginnote Info: xpos seems to be 197.33781pt,
 (marginnote)             \marginnoterightadjust ignored on input line 146.
 Package marginnote Info: Margin note 32.2 is on absolute page 32
 (marginnote)              on input line 150.
 Package marginnote Info: right page because not two side mode on input line 150
 .
-Package marginnote Info: xpos seems to be 235.63521pt,
+Package marginnote Info: xpos seems to be 222.21953pt,
 (marginnote)             \marginnoterightadjust ignored on input line 150.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 155.
@@ -2467,14 +2432,12 @@ Package marginnote Info: Margin note 34.1 is on absolute page 34
 (marginnote)              on input line 39.
 Package marginnote Info: right page because not two side mode on input line 39.
 
-Package marginnote Info: xpos seems to be 197.33781pt,
+Package marginnote Info: xpos seems to be 225.27368pt,
 (marginnote)             \marginnoterightadjust ignored on input line 39.
-Package marginnote Info: Margin note 34.2 is on absolute page 34
-(marginnote)              on input line 43.
 Package marginnote Info: right page because not two side mode on input line 43.
 
-Package marginnote Info: xpos seems to be 222.21953pt,
-(marginnote)             \marginnoterightadjust ignored on input line 43.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 43.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand >>
@@ -2521,13 +2484,13 @@ Package marginnote Info: Margin note 35.1 is on absolute page 35
 (marginnote)              on input line 60.
 Package marginnote Info: right page because not two side mode on input line 60.
 
-Package marginnote Info: xpos seems to be 253.31108pt,
+Package marginnote Info: xpos seems to be 252.16278pt,
 (marginnote)             \marginnoterightadjust ignored on input line 60.
 Package marginnote Info: Margin note 35.2 is on absolute page 35
 (marginnote)              on input line 64.
 Package marginnote Info: right page because not two side mode on input line 64.
 
-Package marginnote Info: xpos seems to be 254.2758pt,
+Package marginnote Info: xpos seems to be 258.09435pt,
 (marginnote)             \marginnoterightadjust ignored on input line 64.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 67.
@@ -2595,12 +2558,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 92.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 92.
-Package marginnote Info: Margin note 36.1 is on absolute page 36
-(marginnote)              on input line 109.
 Package marginnote Info: right page because not two side mode on input line 109
 .
-Package marginnote Info: xpos seems to be 225.27368pt,
-(marginnote)             \marginnoterightadjust ignored on input line 109.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 109.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 118.
 Package babel Info: Redefining spanish shorthand >>
@@ -2642,20 +2603,18 @@ Package marginnote Info: Margin note 37.1 is on absolute page 37
 (marginnote)              on input line 122.
 Package marginnote Info: right page because not two side mode on input line 122
 .
-Package marginnote Info: xpos seems to be 252.16278pt,
+Package marginnote Info: xpos seems to be 230.6806pt,
 (marginnote)             \marginnoterightadjust ignored on input line 122.
 Package marginnote Info: Margin note 37.2 is on absolute page 37
 (marginnote)              on input line 146.
 Package marginnote Info: right page because not two side mode on input line 146
 .
-Package marginnote Info: xpos seems to be 258.09435pt,
+Package marginnote Info: xpos seems to be 265.82747pt,
 (marginnote)             \marginnoterightadjust ignored on input line 146.
-Package marginnote Info: Margin note 37.3 is on absolute page 37
-(marginnote)              on input line 152.
 Package marginnote Info: right page because not two side mode on input line 152
 .
-Package marginnote Info: xpos seems to be 259.70328pt,
-(marginnote)             \marginnoterightadjust ignored on input line 152.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 152.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 157.
 Package babel Info: Redefining spanish shorthand >>
@@ -2743,19 +2702,17 @@ Package marginnote Info: Margin note 39.1 is on absolute page 39
 (marginnote)              on input line 225.
 Package marginnote Info: right page because not two side mode on input line 225
 .
-Package marginnote Info: xpos seems to be 230.6806pt,
+Package marginnote Info: xpos seems to be 243.87436pt,
 (marginnote)             \marginnoterightadjust ignored on input line 225.
 <fig/rl-grafico.png, id=929, 310.15875pt x 262.9825pt>
 File: fig/rl-grafico.png Graphic file (type png)
 <use fig/rl-grafico.png>
 Package pdftex.def Info: fig/rl-grafico.png  used on input line 238.
 (pdftex.def)             Requested size: 155.079pt x 131.49092pt.
-Package marginnote Info: Margin note 39.2 is on absolute page 39
-(marginnote)              on input line 246.
 Package marginnote Info: right page because not two side mode on input line 246
 .
-Package marginnote Info: xpos seems to be 265.82747pt,
-(marginnote)             \marginnoterightadjust ignored on input line 246.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 246.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand >>
@@ -2860,7 +2817,7 @@ Package marginnote Info: Margin note 41.1 is on absolute page 41
 (marginnote)              on input line 301.
 Package marginnote Info: right page because not two side mode on input line 301
 .
-Package marginnote Info: xpos seems to be 243.87436pt,
+Package marginnote Info: xpos seems to be 234.39691pt,
 (marginnote)             \marginnoterightadjust ignored on input line 301.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 328.
@@ -2945,12 +2902,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 369.
 [41]
-Package marginnote Info: Margin note 43.1 is on absolute page 43
-(marginnote)              on input line 388.
 Package marginnote Info: right page because not two side mode on input line 388
 .
-Package marginnote Info: xpos seems to be 234.39691pt,
-(marginnote)             \marginnoterightadjust ignored on input line 388.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 388.
 ) (./cap/ondas-electromagneticas.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -3014,30 +2969,22 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 13.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 13.
-Package marginnote Info: Margin note 44.1 is on absolute page 44
-(marginnote)              on input line 17.
 Package marginnote Info: right page because not two side mode on input line 17.
 
-Package marginnote Info: xpos seems to be 238.591pt,
-(marginnote)             \marginnoterightadjust ignored on input line 17.
-Package marginnote Info: Margin note 44.2 is on absolute page 44
-(marginnote)              on input line 20.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 17.
 Package marginnote Info: right page because not two side mode on input line 20.
 
-Package marginnote Info: xpos seems to be 247.9525pt,
-(marginnote)             \marginnoterightadjust ignored on input line 20.
-Package marginnote Info: Margin note 44.3 is on absolute page 44
-(marginnote)              on input line 23.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 20.
 Package marginnote Info: right page because not two side mode on input line 23.
 
-Package marginnote Info: xpos seems to be 203.43727pt,
-(marginnote)             \marginnoterightadjust ignored on input line 23.
-Package marginnote Info: Margin note 44.4 is on absolute page 44
-(marginnote)              on input line 26.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 23.
 Package marginnote Info: right page because not two side mode on input line 26.
 
-Package marginnote Info: xpos seems to be 237.21024pt,
-(marginnote)             \marginnoterightadjust ignored on input line 26.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 26.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand >>
@@ -3181,18 +3128,18 @@ Package marginnote Info: Margin note 47.1 is on absolute page 47
 (marginnote)              on input line 104.
 Package marginnote Info: right page because not two side mode on input line 104
 .
-Package marginnote Info: xpos seems to be 259.68599pt,
+Package marginnote Info: xpos seems to be 131.94481pt,
 (marginnote)             \marginnoterightadjust ignored on input line 104.
 <fig/la.png, id=1030, 263.98625pt x 302.12875pt>
 File: fig/la.png Graphic file (type png)
 <use fig/la.png>
 Package pdftex.def Info: fig/la.png  used on input line 117.
 (pdftex.def)             Requested size: 131.9928pt x 151.064pt.
-Package marginnote Info: Margin note 47.2 is on absolute page 48
+Package marginnote Info: Margin note 47.2 is on absolute page 47
 (marginnote)              on input line 141.
 Package marginnote Info: right page because not two side mode on input line 141
 .
-Package marginnote Info: xpos seems to be 249.41464pt,
+Package marginnote Info: xpos seems to be 242.95798pt,
 (marginnote)             \marginnoterightadjust ignored on input line 141.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 142.
@@ -3219,11 +3166,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 142.
  [46 <./fig/la.png>]
-Package marginnote Info: Margin note 48.1 is on absolute page 48
+Package marginnote Info: Margin note 48.1 is on absolute page 49
 (marginnote)              on input line 149.
 Package marginnote Info: right page because not two side mode on input line 149
 .
-Package marginnote Info: xpos seems to be 252.43684pt,
+Package marginnote Info: xpos seems to be 244.8169pt,
 (marginnote)             \marginnoterightadjust ignored on input line 149.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 156.
@@ -3295,29 +3242,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 188.
 [47]
-Package marginnote Info: Margin note 49.1 is on absolute page 49
-(marginnote)              on input line 195.
 Package marginnote Info: right page because not two side mode on input line 195
 .
-Package marginnote Info: xpos seems to be 131.94481pt,
-(marginnote)             \marginnoterightadjust ignored on input line 195.
-Package marginnote Info: Margin note 49.2 is on absolute page 49
-(marginnote)              on input line 207.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 195.
 Package marginnote Info: right page because not two side mode on input line 207
 .
-Package marginnote Info: xpos seems to be 242.95798pt,
-(marginnote)             \marginnoterightadjust ignored on input line 207.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 207.
 <fig/sinusoidal2.png, id=1070, 368.37625pt x 326.21875pt>
 File: fig/sinusoidal2.png Graphic file (type png)
 <use fig/sinusoidal2.png>
 Package pdftex.def Info: fig/sinusoidal2.png  used on input line 212.
 (pdftex.def)             Requested size: 184.18767pt x 163.10896pt.
-Package marginnote Info: Margin note 49.3 is on absolute page 49
-(marginnote)              on input line 220.
 Package marginnote Info: right page because not two side mode on input line 220
 .
-Package marginnote Info: xpos seems to be 127.68646pt,
-(marginnote)             \marginnoterightadjust ignored on input line 220.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 220.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 223.
 Package babel Info: Redefining spanish shorthand >>
@@ -3372,12 +3313,10 @@ File: fig/3217.png Graphic file (type png)
 <use fig/3217.png>
 Package pdftex.def Info: fig/3217.png  used on input line 251.
 (pdftex.def)             Requested size: 176.65956pt x 227.34882pt.
-Package marginnote Info: Margin note 50.1 is on absolute page 51
-(marginnote)              on input line 272.
 Package marginnote Info: right page because not two side mode on input line 272
 .
-Package marginnote Info: xpos seems to be 244.8169pt,
-(marginnote)             \marginnoterightadjust ignored on input line 272.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 272.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 273.
 Package babel Info: Redefining spanish shorthand >>
@@ -3428,15 +3367,17 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 290.
  [50 <./fig/3217.png>]
+Package marginnote Info: Margin note 52.1 is on absolute page 52
+(marginnote)              on input line 297.
 Package marginnote Info: right page because not two side mode on input line 297
 .
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 297.
+Package marginnote Info: xpos seems to be 163.33852pt,
+(marginnote)             \marginnoterightadjust ignored on input line 297.
 Package marginnote Info: Margin note 52.2 is on absolute page 52
 (marginnote)              on input line 297.
 Package marginnote Info: right page because not two side mode on input line 297
 .
-Package marginnote Info: xpos seems to be 204.66536pt,
+Package marginnote Info: xpos seems to be 211.62679pt,
 (marginnote)             \marginnoterightadjust ignored on input line 297.
 
 
@@ -3497,7 +3438,7 @@ Package marginnote Info: Margin note 53.1 is on absolute page 53
 (marginnote)              on input line 12.
 Package marginnote Info: right page because not two side mode on input line 12.
 
-Package marginnote Info: xpos seems to be 261.52617pt,
+Package marginnote Info: xpos seems to be 221.48576pt,
 (marginnote)             \marginnoterightadjust ignored on input line 12.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 15.
@@ -3550,36 +3491,26 @@ Package babel Info: Redefining spanish shorthand "?
 [52
 
 ]
-Package marginnote Info: Margin note 54.1 is on absolute page 54
-(marginnote)              on input line 42.
 Package marginnote Info: right page because not two side mode on input line 42.
 
-Package marginnote Info: xpos seems to be 163.33852pt,
-(marginnote)             \marginnoterightadjust ignored on input line 42.
-Package marginnote Info: Margin note 54.2 is on absolute page 54
-(marginnote)              on input line 48.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 42.
 Package marginnote Info: right page because not two side mode on input line 48.
 
-Package marginnote Info: xpos seems to be 211.62679pt,
-(marginnote)             \marginnoterightadjust ignored on input line 48.
-Package marginnote Info: Margin note 54.3 is on absolute page 54
-(marginnote)              on input line 54.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 48.
 Package marginnote Info: right page because not two side mode on input line 54.
 
-Package marginnote Info: xpos seems to be 263.96254pt,
-(marginnote)             \marginnoterightadjust ignored on input line 54.
-Package marginnote Info: Margin note 54.4 is on absolute page 54
-(marginnote)              on input line 60.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 54.
 Package marginnote Info: right page because not two side mode on input line 60.
 
-Package marginnote Info: xpos seems to be 264.7627pt,
-(marginnote)             \marginnoterightadjust ignored on input line 60.
-Package marginnote Info: Margin note 54.5 is on absolute page 54
-(marginnote)              on input line 66.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 60.
 Package marginnote Info: right page because not two side mode on input line 66.
 
-Package marginnote Info: xpos seems to be 221.12907pt,
-(marginnote)             \marginnoterightadjust ignored on input line 66.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 66.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand >>
@@ -3592,12 +3523,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
-Package marginnote Info: Margin note 54.6 is on absolute page 54
-(marginnote)              on input line 73.
 Package marginnote Info: right page because not two side mode on input line 73.
 
-Package marginnote Info: xpos seems to be 122.35829pt,
-(marginnote)             \marginnoterightadjust ignored on input line 73.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 73.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand >>
@@ -3635,12 +3564,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 80.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 80.
-Package marginnote Info: Margin note 55.1 is on absolute page 55
-(marginnote)              on input line 107.
 Package marginnote Info: right page because not two side mode on input line 107
 .
-Package marginnote Info: xpos seems to be 221.48576pt,
-(marginnote)             \marginnoterightadjust ignored on input line 107.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 107.
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 44.
@@ -3714,10 +3641,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 9046 strings out of 492649
- 134176 string characters out of 6129622
- 255936 words of memory out of 5000000
- 12426 multiletter control sequences out of 15000+600000
+ 9082 strings out of 492649
+ 134603 string characters out of 6129622
+ 255927 words of memory out of 5000000
+ 12462 multiletter control sequences out of 15000+600000
  16471 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,17n,39p,2572b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3742,7 +3669,7 @@ ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on EM.pdf (56 pages, 2523054 bytes).
+Output written on EM.pdf (56 pages, 2522762 bytes).
 PDF statistics:
  1309 PDF objects out of 1440 (max. 8388607)
  1148 compressed objects within 12 object streams
