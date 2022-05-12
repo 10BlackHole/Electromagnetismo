@@ -15,8 +15,6 @@
 %\usepackage[right=3.0cm,left=1.20cm,top=1.5cm,bottom=1.5cm]{geometry}
 
 \hypersetup{colorlinks=true, linkcolor=red}
-\usepackage{hyperref}
-\usepackage{marginnote}
 
 \renewcommand*{\marginnotevadjust}{-0.1cm}
 \renewcommand*{\marginfont}{\footnotesize}
@@ -45,11 +43,36 @@ Diez B. Borja
 
 \today
 
+\newpage
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+\pagestyle{plain}
+\chapter*{Prefacio}
+\addcontentsline{toc}{chapter}{Prefacio}
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+
+\emph{Estos apuntes fueron escritos por \href{https://github.com/10BlackHole}{B. Diez} basados principalmente en Física Universitaria de Young, Hugh D. and Roger A. Freedman (2009) y conocimiento propio.}
+\bigskip
+
+
+\bigskip
+
+\newpage
 \end{center}
+\\
 %\title{\Huge\textbf{{Electromagnetismo}}}
 %\author{Diez B. Borja}
 %\maketitle
 \tableofcontents
+\pagenumbering{arabic}
+\setcounter{page}{1}
 \input{cap/potencial-electrico.tex}
 \input{cap/capacitancia-y-dielectricos.tex}
 \input{cap/corriente-resistencia-y-fuerza-electromotriz.tex}
@@ -71,11 +94,6 @@ Decimosegunda edición}. PEARSON EDUCACIÓN.
 
 \end{thebibliography}
 
-\end{document}
 
-\input{./potencial-electrico.tex}
-\input{./fuentes-de-campo-magnetico.tex}
-\input{./induccion-electromagnetica.tex}
-\input{./inductancia.tex}
 \end{document}
 
