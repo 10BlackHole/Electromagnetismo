@@ -1,3 +1,5 @@
+La versión compilada puede ser encontrada en [este link](https://drive.google.com/file/d/1uNT0F3syy2wQxU1ELgfKSniW6MOcKksi/view?usp=share_link)
+
 # Contenidos
 
 1. Potencial eléctrico
